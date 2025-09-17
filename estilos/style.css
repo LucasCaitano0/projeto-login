@@ -75,6 +75,25 @@
         display: none;
     }
 
+    div.campo > span {
+        color: white;
+        background-color: black;
+        font-size: 2em;
+        width: 40px;
+        padding: 5px;
+    }
+
+    div.campo > input{
+        background-color: #6e40ec4b;
+        font-size: 1em;
+        width: calc(100% - 44x);
+        height: 100%;
+        transform: translateY(-10px);
+        border: 0px;
+        border-radius: 5px;
+        padding: 4px;
+    }
+
     form > input[type = submit]{
         display: block;
         font-size: 1em;
